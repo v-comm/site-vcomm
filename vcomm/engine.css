@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,700,900');
+
+/* ..................................... 
+
+bulma fix
+
+..................................... */
+.columns.is-gapless:not(:last-child){
+    margin-bottom: 0px;
+}
+.columns:last-child{
+    margin-bottom: -12px;
+}
+@media screen and (orientation: portrait) { 
+    .noscroll{ 
+        padding: 10px;
+    }
+    .noscroll img{
+        padding: 0 !important;
+    }
+}
+
+/* ..................................... 
+
+vcomm defaults
+
+..................................... */
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.fine{
+    font-weight: 200 !important;
+}
+
+.inline li{
+    display: inline-grid !important;
+}
+
+#motion{
+    width: 100% !important;
+    height: 317px !important;
+}
+.brand{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.menu{
+    width: 100%;
+    height: 120%;
+    position: fixed;
+    z-index: 100;
+    opacity: 0;
+    right: -3000px;
+}
+.typcn{
+    font-size: 30px;
+}
+.control-btn{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-left: 1px dotted #ccc;
+    text-align: center;
+    padding-left: 20px;
+}
+.control-btn-super{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-left: 1px dotted #ccc;
+    text-align: center;
+}
+.control-btn small{
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#tv{
+    margin-top: -12px;
+}
+/* ..................................... 
+
+shortcuts
+
+..................................... */
+.clear-menu{ height: 1px;  }
+.clear50x{ height: 50px;   }
+.clear100x{ height: 100px; }
+#cover{
+    border-top-left-radius: 10px;
+}
+
+
+/* ..................................... 
+
+default colors
+
+..................................... */
+
+:root {
+    --color1: #fa8072;
+    --color2: #BB7365;
+    --color3: #DEADA1;
+    --color4: #ffffff;
+    --color5: #3C4663;
+    --color6: #6D748C;
+}
+::selection {      background: var(--color1); }
+::-moz-selection { background: var(--color1); }
+
+a{
+    color: var(--color5) !important;
+    font-weight: bold;
+    transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -webkit-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
+}
+a:hover{ color: var(--color1) !important; }
+
+.gray{
+    background-color: #f2f2f2;
+    color: #f2f2f2;
+}
+.color1{ color: var(--color1) !important; }
+.color2{ color: var(--color2) !important; }
+.color3{ color: var(--color3) !important; }
+.color4{ color: var(--color4) !important; }
+.color5{ color: var(--color5) !important; }
+.color6{ color: var(--color6) !important; }
+.black{ color: black !important;}
+
+.bg1{ background-color: var(--color1) !important; }
+.bg2{ background-color: var(--color2) !important; }
+.bg3{ background-color: var(--color3) !important; }
+.bg4{ background-color: var(--color4) !important; }
+.bg5{ background-color: var(--color5) !important; }
+.bg6{ background-color: var(--color6) !important; }
+
+.is-color{
+    background-color: var(--color1);
+    color: var(--color4) !important;
+    border: 0 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.is-color:hover{
+    color: var(--color6) !important;
+    background-color: var(--color5) !important;
+}
+.is-color:focus{
+    color: var(--color1) !important;
+    background-color: #f2f2f2 !important;
+}
+.is-color h1{
+    color: white !important;
+}
