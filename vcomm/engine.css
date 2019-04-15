@@ -81,6 +81,13 @@ body{
 #tv{
     margin-top: -12px;
 }
+.icon-circle{
+    font-size: 100px !important;
+    margin-top: -50px !important;
+}
+.typcn-circle{
+    font-size: 100px !important;
+}
 /* ..................................... 
 
 shortcuts
