@@ -99,8 +99,8 @@ shortcuts
 
 ..................................... */
 .clear-menu{ height: 1px;  }
-.clear50x{ height: 50px;   }
-.clear100x{ height: 100px; }
+.clear50{ height: 50px;   }
+.clear100{ height: 100px; }
 #cover{
     border-top-left-radius: 10px;
 }
