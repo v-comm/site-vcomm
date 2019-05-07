@@ -152,6 +152,7 @@ a:hover{ color: var(--color1) !important; }
 .bg4{ background-color: var(--color4) !important; }
 .bg5{ background-color: var(--color5) !important; }
 .bg6{ background-color: var(--color6) !important; }
+.bggrey{ background-color: #f2f2f2 !important; }
 
 .is-color{
     background-color: var(--color1);
